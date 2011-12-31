@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPCB (2011-07-19)-testing date = Wed 28 Dec 2011 02:02:14 PM PST
+
+BeginCmp
+TimeStamp = /4EFA4E24;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA4E28;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA4E2E;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA4E33;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA4E37;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA55D8;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA55DE;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA55E7;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA55F0;
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA55F6;
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA5601;
+Reference = D11;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA561E;
+Reference = D12;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA5623;
+Reference = D13;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA5626;
+Reference = D14;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA562A;
+Reference = D15;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA578D;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = SMD_wire_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFA4F63;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+EndListe

@@ -1,0 +1,312 @@
+
+(session capillary_led_pcb.ses
+  (base_design capillary_led_pcb.dsn)
+  (placement
+    (resolution mil 10)
+    (component SM1206
+      (place R1 41260 -44803 front 90)
+    )
+    (component SM0805
+      (place D15 44370 -62402 front 270)
+      (place D14 44370 -60827 front 270)
+      (place D13 44370 -59252 front 270)
+      (place D12 44370 -57677 front 270)
+      (place D11 44370 -56102 front 270)
+      (place D10 44370 -54528 front 270)
+      (place D9 44370 -52953 front 270)
+      (place D8 44370 -51378 front 270)
+      (place D7 44370 -49803 front 270)
+      (place D6 44370 -48228 front 270)
+      (place D5 44370 -46654 front 270)
+      (place D4 44370 -45079 front 270)
+      (place D3 44370 -43504 front 270)
+      (place D2 44370 -41929 front 270)
+      (place D1 44370 -40354 front 270)
+    )
+    (component SMD_wire_2x1
+      (place P1 41260 -51378 front 0)
+    )
+    (component "2-56"
+      (place M2 40870 -61886 front 0)
+      (place M1 40870 -40870 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(2011-07-19)-testing")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /Vin
+        (wire
+          (path Front 200
+            41260 -45453
+            41260 -45956
+          )
+        )
+        (wire
+          (path Front 200
+            40768 -49980
+            40768 -46448
+            41260 -45956
+          )
+        )
+        (wire
+          (path Front 200
+            40768 -52776
+            40768 -49980
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path Front 200
+            44370 -58052
+            43842 -58580
+            43842 -62249
+            44370 -62777
+          )
+        )
+        (wire
+          (path Front 200
+            43882 -53338
+            43882 -57564
+            44370 -58052
+          )
+        )
+        (wire
+          (path Front 200
+            41752 -52776
+            43320 -52776
+            43882 -53338
+          )
+        )
+        (wire
+          (path Front 200
+            43882 -53338
+            43892 -53328
+          )
+        )
+        (wire
+          (path Front 200
+            44370 -53328
+            43892 -53328
+          )
+        )
+        (wire
+          (path Front 200
+            41752 -50537
+            41752 -52776
+          )
+        )
+        (wire
+          (path Front 200
+            41752 -50537
+            42436 -50537
+            43992 -48981
+            44370 -48981
+          )
+        )
+        (wire
+          (path Front 200
+            41752 -49980
+            41752 -50537
+          )
+        )
+        (wire
+          (path Front 200
+            44370 -43879
+            44898 -44407
+            44898 -48075
+            44370 -48603
+          )
+        )
+        (wire
+          (path Front 200
+            44370 -48603
+            44370 -48981
+          )
+        )
+      )
+      (net "N-000001"
+        (wire
+          (path Front 200
+            44370 -56477
+            44370 -57302
+          )
+        )
+      )
+      (net "N-000002"
+        (wire
+          (path Front 200
+            44370 -59627
+            44370 -60452
+          )
+        )
+      )
+      (net "N-000003"
+        (wire
+          (path Front 200
+            44370 -61202
+            44370 -62027
+          )
+        )
+      )
+      (net "N-000005"
+        (wire
+          (path Front 200
+            44370 -40729
+            44370 -41554
+          )
+        )
+      )
+      (net "N-000006"
+        (wire
+          (path Front 200
+            44370 -42304
+            44370 -43129
+          )
+        )
+      )
+      (net "N-000007"
+        (wire
+          (path Front 200
+            44370 -45454
+            44370 -46279
+          )
+        )
+      )
+      (net "N-000008"
+        (wire
+          (path Front 200
+            44370 -47029
+            44370 -47853
+          )
+        )
+      )
+      (net "N-000009"
+        (wire
+          (path Front 200
+            44370 -50178
+            44370 -51003
+          )
+        )
+      )
+      (net "N-000010"
+        (wire
+          (path Front 200
+            44370 -51753
+            44370 -52578
+          )
+        )
+      )
+      (net "N-000011"
+        (wire
+          (path Front 200
+            44370 -54903
+            44370 -55727
+          )
+        )
+      )
+      (net "N-000013"
+        (wire
+          (path Front 200
+            44370 -49428
+            45352 -48446
+            45352 -40961
+            44370 -39979
+          )
+        )
+        (wire
+          (path Front 200
+            44849 -53775
+            44849 -49907
+            44370 -49428
+          )
+        )
+        (wire
+          (path Front 200
+            44849 -53775
+            44849 -58398
+            44748 -58499
+            44370 -58499
+          )
+        )
+        (wire
+          (path Front 200
+            44849 -53775
+            44370 -53775
+          )
+        )
+        (wire
+          (path Front 200
+            44370 -58877
+            44370 -58499
+          )
+        )
+        (wire
+          (path Front 200
+            44370 -54153
+            44370 -53775
+          )
+        )
+        (wire
+          (path Front 200
+            43846 -43650
+            43846 -44180
+            43992 -44326
+            44370 -44326
+          )
+        )
+        (wire
+          (path Front 200
+            44370 -39979
+            43846 -40503
+            43846 -43650
+          )
+        )
+        (wire
+          (path Front 200
+            43846 -43650
+            41260 -43650
+          )
+        )
+        (wire
+          (path Front 200
+            41260 -44153
+            41260 -43650
+          )
+        )
+        (wire
+          (path Front 200
+            44370 -44704
+            44370 -44326
+          )
+        )
+      )
+    )
+  )
+)

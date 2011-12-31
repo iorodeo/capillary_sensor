@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPCB (2011-07-19)-testing date = Thu 29 Dec 2011 02:25:02 PM PST
+
+BeginCmp
+TimeStamp = /4EFBA342;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFBC9E1;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = SMT_PWR_JACK_1p7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFBA2DA;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFBA297;
+Reference = U1;
+ValeurCmp = TAOS_TSL1406R;
+IdModule  = TAOS_TSL1406R;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFBA2A4;
+Reference = U2;
+ValeurCmp = MAPLE_MINI;
+IdModule  = maple_mini_smt;
+EndCmp
+
+EndListe
