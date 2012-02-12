@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 28 Dec 2011 02:53:18 PM PST
+EESchema Schematic File Version 2  date Wed 28 Dec 2011 02:01:59 PM PST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,8 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:capillary_led_pcb-cache
-EELAYER 25  0
+EELAYER 43  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
@@ -44,75 +43,66 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 6450 4900
+Connection ~ 5450 5100
 Wire Wire Line
-	6950 4700 6950 4900
+	4950 4700 4950 5100
 Wire Wire Line
-	6950 4900 4950 4900
+	4950 5100 6950 5100
 Wire Wire Line
-	5450 4900 5450 4700
+	6450 5100 6450 4700
+Connection ~ 5450 3100
 Wire Wire Line
-	5950 4700 5950 5500
-Connection ~ 6450 3050
+	4950 3300 4950 3100
 Wire Wire Line
-	6950 3300 6950 3050
+	4950 3100 6950 3100
 Wire Wire Line
-	6950 3050 4950 3050
-Wire Wire Line
-	5450 3050 5450 3300
-Wire Wire Line
-	5950 2850 5950 3300
-Wire Wire Line
-	6450 3700 6450 3800
-Wire Wire Line
-	5450 4200 5450 4300
-Wire Wire Line
-	7400 2350 7400 2200
-Wire Wire Line
-	5950 2350 5950 2000
-Wire Wire Line
-	5950 2000 7650 2000
-Wire Wire Line
-	5450 3700 5450 3800
-Wire Wire Line
-	4950 4200 4950 4300
-Wire Wire Line
-	6950 3700 6950 3800
-Wire Wire Line
-	6450 4200 6450 4300
-Wire Wire Line
-	4950 3700 4950 3800
-Wire Wire Line
-	6950 4200 6950 4300
-Wire Wire Line
-	5950 3700 5950 3800
-Wire Wire Line
-	5950 4200 5950 4300
-Wire Wire Line
-	7400 2200 7650 2200
+	6450 3100 6450 3300
 Wire Wire Line
 	3750 2200 3750 2350
 Wire Wire Line
-	6450 3050 6450 3300
-Connection ~ 5950 3050
+	7650 2200 7400 2200
+Connection ~ 5950 3100
 Wire Wire Line
-	4950 3050 4950 3300
-Connection ~ 5450 3050
+	5450 3100 5450 3300
 Wire Wire Line
-	6450 4900 6450 4700
-Connection ~ 5950 4900
+	5950 4200 5950 4300
 Wire Wire Line
-	4950 4900 4950 4700
-Connection ~ 5450 4900
-$Comp
-L R R1
-U 1 1 4EFA4F63
-P 5950 2600
-F 0 "R1" V 6050 2600 50  0000 C CNN
-F 1 "R" V 5950 2600 50  0000 C CNN
-	1    5950 2600
-	1    0    0    -1  
-$EndComp
+	5950 3700 5950 3800
+Wire Wire Line
+	6950 4200 6950 4300
+Wire Wire Line
+	4950 3700 4950 3800
+Wire Wire Line
+	6450 4200 6450 4300
+Wire Wire Line
+	6950 3700 6950 3800
+Wire Wire Line
+	5950 4700 5950 5500
+Wire Wire Line
+	4950 4200 4950 4300
+Wire Wire Line
+	5450 3700 5450 3800
+Connection ~ 5950 5100
+Wire Wire Line
+	5950 3300 5950 2850
+Wire Wire Line
+	7650 2000 5950 2000
+Wire Wire Line
+	5950 2000 5950 2350
+Wire Wire Line
+	7400 2200 7400 2350
+Wire Wire Line
+	5450 4200 5450 4300
+Wire Wire Line
+	6450 3700 6450 3800
+Wire Wire Line
+	6950 3100 6950 3300
+Connection ~ 6450 3100
+Wire Wire Line
+	5450 5100 5450 4700
+Wire Wire Line
+	6950 5100 6950 4700
+Connection ~ 6450 5100
 Text Label 3750 2350 0    60   ~ 0
 GND
 $Comp
@@ -255,6 +245,15 @@ F 0 "D6" V 5450 4600 50  0000 C CNN
 F 1 "LED" V 5450 4400 50  0000 C CNN
 	1    5450 4500
 	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 4EFA4F63
+P 5950 2600
+F 0 "R1" V 6050 2600 50  0000 C CNN
+F 1 "R" V 5950 2600 50  0000 C CNN
+	1    5950 2600
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED D5
