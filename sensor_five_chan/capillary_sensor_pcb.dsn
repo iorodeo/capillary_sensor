@@ -33,14 +33,14 @@
   )
   (placement
     (component TAOS_TSL1406R
-      (place U1 4750 -4040.4 front 0 (PN TAOS_TSL1406R))
-      (place U2 5750 -4040.4 front 0 (PN TAOS_TSL1406R))
-      (place U3 6750 -4040.4 front 0 (PN TAOS_TSL1406R))
-      (place U4 7750 -4040.4 front 0 (PN TAOS_TSL1406R))
       (place U5 8750 -4040.4 front 0 (PN TAOS_TSL1406R))
+      (place U4 7750 -4040.4 front 0 (PN TAOS_TSL1406R))
+      (place U3 6750 -4040.4 front 0 (PN TAOS_TSL1406R))
+      (place U2 5750 -4040.4 front 0 (PN TAOS_TSL1406R))
+      (place U1 4750 -4040.4 front 0 (PN TAOS_TSL1406R))
     )
     (component SMT_PWR_JACK_1p7
-      (place P1 3031.5 -3031.5 front 90 (PN CONN_2))
+      (place P1 3031.5 -3031.5 front 270 (PN CONN_2))
     )
     (component SM0603
       (place C1 5140 -4640 front 90 (PN 0.1uF))
@@ -95,10 +95,10 @@
       (pin Rect[A]Pad_100x50_mil 11 200 -400)
       (pin Rect[A]Pad_100x50_mil 12 200 -500)
       (pin Rect[A]Pad_100x50_mil 13 200 -600)
-      (keepout "" (circle Front 90 -22 1130))
-      (keepout "" (circle Back 90 -22 1130))
-      (keepout "" (circle Front 90 -22 -1130))
-      (keepout "" (circle Back 90 -22 -1130))
+      (keepout "" (circle Front 116 -22 1130))
+      (keepout "" (circle Back 116 -22 1130))
+      (keepout "" (circle Front 116 -22 -1130))
+      (keepout "" (circle Back 116 -22 -1130))
     )
     (image SMT_PWR_JACK_1p7
       (outline (path signal 15  181.1 157.5  181.1 -157.5))
@@ -248,11 +248,11 @@
       (pins U5-6 U5-12)
     )
     (net /CLK
-      (pins U1-4 U1-10 U2-4 U2-10 U3-4 U3-10 U4-4 U4-10 U5-4 U5-10 U6-16)
+      (pins U5-4 U5-10 U4-4 U4-10 U3-4 U3-10 U2-4 U2-10 U1-4 U1-10 U6-16)
     )
     (net /SI1
-      (pins U1-2 U1-3 U1-9 U2-2 U2-3 U2-9 U3-2 U3-3 U3-9 U4-2 U4-3 U4-9 U5-2 U5-3
-        U5-9 U6-7)
+      (pins U5-2 U5-3 U5-9 U4-2 U4-3 U4-9 U3-2 U3-3 U3-9 U2-2 U2-3 U2-9 U1-2 U1-3
+        U1-9 U6-7)
     )
     (net /SO2_0
       (pins U1-11 U6-9)
@@ -270,10 +270,10 @@
       (pins U5-11 U6-13)
     )
     (net /VDD
-      (pins U1-13 U2-13 U3-13 U4-13 U5-13 C1-1 C2-1 C3-1 C4-1 C5-1 U6-1)
+      (pins U5-13 U4-13 U3-13 U2-13 U1-13 C1-1 C2-1 C3-1 C4-1 C5-1 U6-1)
     )
     (net GND
-      (pins U1-1 U1-5 U2-1 U2-5 U3-1 U3-5 U4-1 U4-5 U5-1 U5-5 C1-2 C2-2 C3-2 C4-2
+      (pins U5-1 U5-5 U4-1 U4-5 U3-1 U3-5 U2-1 U2-5 U1-1 U1-5 C1-2 C2-2 C3-2 C4-2
         C5-2 U6-2)
     )
     (net "N-000003"
